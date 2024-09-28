@@ -1,0 +1,16 @@
+.body{
+    /* background-color: #282c34;
+    /* Android Large - Splash */
+
+    /* position: relative;
+    width: 360px;
+    height: 800px; */ 
+
+    background: linear-gradient(180deg, #76B63F 0%, #FFFFFF 100%);
+
+    color: #dde0e6;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;    
+    justify-content: space-between;
+    align-items: center;
+}

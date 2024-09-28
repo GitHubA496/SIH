@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <g fill="none" stroke="green" stroke-width="2">
+    <!-- Stem -->
+    <line x1="50" y1="100" x2="50" y2="40" />
+    
+    <!-- Left Leaf -->
+    <path d="M50 60 Q30 40, 40 20 Q50 40, 50 60" fill="lightgreen" />
+    
+    <!-- Right Leaf -->
+    <path d="M50 60 Q70 40, 60 20 Q50 40, 50 60" fill="lightgreen" />
+  </g>
+</svg>

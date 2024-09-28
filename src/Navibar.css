@@ -1,0 +1,36 @@
+.Navibar{
+    
+
+
+
+background: #FFFFFF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fefeff;
+    color: #282c34;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+/* navbar-style-3 */
+
+
+  .lefty{
+    display: flex;
+    align-items: center;
+  }
+  .Navibar img{
+    width: 100px;
+    height: 70px;
+    align-self: center;
+  }
+  .Navibar-list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .Navibar-list li{
+    margin-right: 10px;
+  }
