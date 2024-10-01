@@ -1,19 +1,56 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import './index.css';
-import App from './App';
-import Navibar from './NaviBar';
-import Body from './Frontpage/body';
-import Footer from './Footer';
+import Home from './Frontpage/Home';
+import Search from './components/search';
+import Info from './components/Info';
+import VirtualModel from "./components/VirtualModel"
 import reportWebVitals from './reportWebVitals';
+import About from './components/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navibar />
-    <Body />
-    {/* <App /> */}
-    <Footer />
+            <Router>
+                <Routes>
+                    <Route
+                        exact
+                        path="/"
+                        element={<Home />}
+                    />
+                     <Route
+                        path="/search"
+                        element={<Search />}
+                    />
+                     <Route
+                        path="/Virtual-Garden"
+                        element={<VirtualModel />}
+                    />
+                     <Route
+                        path="/search/info"
+                        element={<Info />}
+                    />
+                     <Route
+                        path="/about"
+                        element={<About />}
+                    />
+                     
+                  {/*<Route
+                        path="/contactus"
+                        element={<ContactUs />}
+                    />
+                    <Route
+                        path="*"
+                        element={<Navigate to="/" />}
+                    /> */}
+                </Routes>
+            </Router>
   </React.StrictMode>
 );
 

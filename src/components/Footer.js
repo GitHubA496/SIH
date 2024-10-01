@@ -1,14 +1,14 @@
-import logo from "./company.jpg";
-
+import logo from "../assets/company.jpg";
+// [#15743B]
 export default function Footer() {
     return (
         <footer className='foot'>
-            <div className="flex flex-col w-full h-fit bg-[#15743B] text-[#e5e7eb] px-12 py-16">
+            <div className="flex flex-col w-full h-fit bg-green-800 text-[#e5e7eb] px-12 py-16">
     <div className="flex flex-row">
         <div className="flex flex-col gap-2 justify-center w-[35%] w-[35%]">
             <div className="flex items-center w-full gap-4">
                 <img src={logo} width="80" alt="Logo Preview" />
-                <div className="text-3xl  ">Your Company</div>
+                <div className="text-3xl  ">Tarados</div>
             </div>
         </div>
         <div className="flex flex-row w-[65%] justify-end gap-16 text-nowrap">
@@ -29,7 +29,7 @@ export default function Footer() {
         </div>
     </div>
     <div className="w-full border-t border-gray-500 my-8"></div>
-    <div className="text-center">© 2024 Your Companys - All rights reserved.</div>
+    <div className="text-center">© 2024 Tarados - All rights reserved.</div>
 </div>
         </footer>
     );

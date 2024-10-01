@@ -14,7 +14,15 @@ background: #FFFFFF;
     border-bottom: 1px solid #ccc;
   }
 /* navbar-style-3 */
-
+.search{
+  border: #282c34 1px solid ;
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(200, 200, 155);
+  color: aqua;
+}
 
   .lefty{
     display: flex;

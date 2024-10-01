@@ -9,9 +9,13 @@ function Navibar() {
         </div>
         <list className="Navibar-list">
             <li>Home</li>
-            <li>About</li>
+            <li>Virtual garden</li>
+            <li>FAQs</li>
             <li>Contact</li>
         </list>
+        <form action="post" >
+            <input type="text" placeholder="Search" className='search' />
+        </form>
     </div>
     )
 }
